@@ -1,0 +1,19 @@
+[project]
+name = "detached-head"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Divyendu Dutta", email = "connect2divyendu@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pyxel>=2.9.5",
+]
+
+[project.scripts]
+detached-head = "detached_head:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
